@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {
   CurrencyDollarIcon,
-  GasStationIcon,
+  FireIcon,
   ChartBarIcon,
   ExclamationTriangleIcon,
 } from '@heroicons/react/24/outline';
@@ -71,7 +71,7 @@ const Dashboard = () => {
         <StatCard
           title="Fuel Types"
           value={stats.fuelTypes}
-          icon={GasStationIcon}
+          icon={FireIcon}
           color="bg-blue-500"
         />
         <StatCard
