@@ -1,7 +1,7 @@
 import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { 
   HomeIcon, 
-  GasStationIcon,
+  FireIcon, // Using FireIcon for fuel management
   CurrencyDollarIcon, 
   ChartBarIcon,
   ArrowRightOnRectangleIcon 
@@ -17,7 +17,7 @@ const Layout = () => {
 
   const navLinks = [
     { path: '/', name: 'Dashboard', icon: HomeIcon },
-    { path: '/fuels', name: 'Fuel Management', icon: GasStationIcon },
+    { path: '/fuels', name: 'Fuel Management', icon: FireIcon },
     { path: '/sales', name: 'Sales Management', icon: CurrencyDollarIcon },
     { path: '/reports', name: 'Reports', icon: ChartBarIcon },
   ];
